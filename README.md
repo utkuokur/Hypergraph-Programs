@@ -1,7 +1,11 @@
 This package contains Sagemath code to calculate:
+
 1- the list of Veblen hypergraphs on n vertices and d edges with rank k.
+
 2- the associated coefficient of a Veblen hypergraph
+
 3- the characteristic polynomial of a simple hypergraph
+
 The main file contains the three functions just mentioned. In addition, there are three example files, to demonstrate the usage of the functions in the main file. 
 
 These and related concepts are described in the paper:
@@ -26,8 +30,11 @@ The associated coefficient of a Veblen hypergraph H is the rational number obtai
 The characteristic polynomial of a simple hypergraph H is polynomial in the variable x obtained by taking the resultant of I-xA, where A is the adjacency hypermatrix of H. 
 
 Examples
+
 1- In Example 1, we calculate the list of all Veblen hypergraphs on 5 vertices and 6 edges with rank 3.
+
 2- In Exmaple 2, we calculate the associated coefficient of the Veblen hypergraph with edge set {[0,1,2],[0,1,2],[0,1,2],[1,2,3],[1,2,3],[1,2,3]}
+
 3- In Example 3, we calculate the characteristic polynomial of the hypergraph with edge set {[0,1,2],[0,1,3],[0,2,3],[1,2,3]} (the complete hypergraph of rank 3 on 4 vertices)
 
 The code is written in Sagemath 9.7, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11.
