@@ -14,6 +14,7 @@ Pages 1-15,
 ISSN 0095-8956,
 https://doi.org/10.1016/j.jctb.2021.01.002.
 (https://www.sciencedirect.com/science/article/pii/S0095895621000022)
+
 Abstract: We generalize the Harary-Sachs theorem to k-uniform hypergraphs: the codegree-d coefficient of the characteristic polynomial of a uniform hypergraph H can be expressed as a weighted sum of subgraph counts over certain multi-hypergraphs with d edges. We include a detailed description of the aforementioned multi-hypergraphs and a formula for their corresponding weights.
 Keywords: Characteristic polynomial; Hypergraph; Subgraph statistics; Coefficient
 
