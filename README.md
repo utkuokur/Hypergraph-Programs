@@ -34,8 +34,12 @@ Examples:
 
 1- In Example 1, we calculate the list of all Veblen hypergraphs on 6 edges and less than or equal to 5 vertices, of rank 3. 
 
-2- In Exmaple 2, we calculate the associated coefficient of the Veblen hypergraph with edge set { [0,1,2], [0,1,2], [0,1,2], [1,2,3], [1,2,3], [1,2,3] }
+2- In Exmaple 2, we calculate the associated coefficient of the Veblen hypergraph with edge set { [0,1,2], [0,1,2], [0,1,2], [1,2,3], [1,2,3], [1,2,3] }. 
 
-3- In Example 3, we calculate the characteristic polynomial of the hypergraph with edge set { [0,1,2], [0,1,3], [0,2,3], [1,2,3] } (the complete hypergraph of rank 3 on 4 vertices)
+3- In Example 3, we calculate the characteristic polynomial of the hypergraph with edge set { [0,1,2], [0,1,3], [0,2,3], [1,2,3] } (the complete hypergraph of rank 3 on 4 vertices). There is an option to estimate the remaining time. 
 
-The code is written in Sagemath 9.7, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11.
+The code is written in Sagemath 9.7, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11. The third program requires Macaulay 2, a software system for algebraic geometry.
+Download Sagemath: https://www.sagemath.org/
+Download WSL2: https://learn.microsoft.com/en-us/windows/wsl/install
+Download Macaulay 2: http://www2.macaulay2.com/Macaulay2/Downloads/
+
