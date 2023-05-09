@@ -1,6 +1,6 @@
 This package contains Sagemath code to calculate:
 
-1- the list of Veblen hypergraphs on n vertices and d edges with rank k.
+1- the list of Veblen hypergraphs on d edges and less than or equal to n vertices, of rank k.
 
 2- the associated coefficient of a Veblen hypergraph
 
@@ -24,18 +24,18 @@ Keywords: Characteristic polynomial; Hypergraph; Subgraph statistics; Coefficien
 
 Definitions: 
 
-A Veblen hypergraph of rank k is a hypergraph of rank k such that the degree of each vertex divides k. Given k, n and d, we can calculate the list of all possibly disconnected Veblen hypergraphs on n vertices and d edges, using the first program. 
+A Veblen hypergraph of rank k is a hypergraph of rank k such that the degree of each vertex is divisible by k. Given k, n and d, we can calculate the list of all possibly disconnected Veblen hypergraphs on d edges and less than or equal to n vertices, of rank k, using the first program.
 
 The associated coefficient of a Veblen hypergraph H is the rational number obtained by summing, over all rootings R of H, the ratio of the number of Eulerian circuits of D_R, the digraph obtained from R, over the product of the in-degrees of the vertices of D_R. 
 
-The characteristic polynomial of a simple hypergraph H is polynomial in the variable x obtained by taking the resultant of I-xA, where A is the adjacency hypermatrix of H. 
+The characteristic polynomial of a simple hypergraph H is polynomial in the variable x obtained by taking the resultant of I-xA, where A is the adjacency hypermatrix of H.
 
 Examples:
 
-1- In Example 1, we calculate the list of all Veblen hypergraphs on 5 vertices and 6 edges with rank 3.
+1- In Example 1, we calculate the list of all Veblen hypergraphs on 6 edges and less than or equal to 5 vertices, of rank 3. 
 
-2- In Exmaple 2, we calculate the associated coefficient of the Veblen hypergraph with edge set {[0,1,2],[0,1,2],[0,1,2],[1,2,3],[1,2,3],[1,2,3]}
+2- In Exmaple 2, we calculate the associated coefficient of the Veblen hypergraph with edge set { [0,1,2], [0,1,2], [0,1,2], [1,2,3], [1,2,3], [1,2,3] }
 
-3- In Example 3, we calculate the characteristic polynomial of the hypergraph with edge set {[0,1,2],[0,1,3],[0,2,3],[1,2,3]} (the complete hypergraph of rank 3 on 4 vertices)
+3- In Example 3, we calculate the characteristic polynomial of the hypergraph with edge set { [0,1,2], [0,1,3], [0,2,3], [1,2,3] } (the complete hypergraph of rank 3 on 4 vertices)
 
 The code is written in Sagemath 9.7, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11.
