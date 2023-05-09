@@ -22,14 +22,15 @@ https://doi.org/10.1016/j.jctb.2021.01.002.
 Abstract: We generalize the Harary-Sachs theorem to k-uniform hypergraphs: the codegree-d coefficient of the characteristic polynomial of a uniform hypergraph H can be expressed as a weighted sum of subgraph counts over certain multi-hypergraphs with d edges. We include a detailed description of the aforementioned multi-hypergraphs and a formula for their corresponding weights.
 Keywords: Characteristic polynomial; Hypergraph; Subgraph statistics; Coefficient
 
-Definitions
+Definitions: 
+
 A Veblen hypergraph of rank k is a hypergraph of rank k such that the degree of each vertex divides k. Given k, n and d, we can calculate the list of all possibly disconnected Veblen hypergraphs on n vertices and d edges, using the first program. 
 
 The associated coefficient of a Veblen hypergraph H is the rational number obtained by summing, over all rootings R of H, the ratio of the number of Eulerian circuits of D_R, the digraph obtained from R, over the product of the in-degrees of the vertices of D_R. 
 
 The characteristic polynomial of a simple hypergraph H is polynomial in the variable x obtained by taking the resultant of I-xA, where A is the adjacency hypermatrix of H. 
 
-Examples
+Examples:
 
 1- In Example 1, we calculate the list of all Veblen hypergraphs on 5 vertices and 6 edges with rank 3.
 
