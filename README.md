@@ -34,7 +34,7 @@ Examples:
 
 1- In Example 1, we calculate the list of all Veblen hypergraphs on 6 edges and less than or equal to 5 vertices, of rank 3. 
 
-2- In Exmaple 2, we calculate the associated coefficient of the Veblen hypergraph with edge set { [0,1,2], [0,1,2], [0,1,2], [1,2,3], [1,2,3], [1,2,3] }. 
+2- In Example 2, we calculate the associated coefficient of the Veblen hypergraph with edge set { [0,1,2], [0,1,2], [0,1,2], [1,2,3], [1,2,3], [1,2,3] }. 
 
 3- In Example 3, we calculate the characteristic polynomial of the hypergraph with edge set { [0,1,2], [0,1,3], [0,2,3], [1,2,3] } (the complete hypergraph of rank 3 on 4 vertices). There is an option to estimate the remaining time. 
 
