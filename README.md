@@ -10,7 +10,9 @@ This package contains Sagemath code to calculate:
 
 5- the first few coefficients of the characteristic polynomial of a hypergraph for larger hypergraphs via Harary Sachs Theorem
 
-The main file contains the three functions just mentioned. In addition, there are five example files, to demonstrate the usage of the functions in the main file. 
+6 - the lagrange polynomials of the hypergraphs described in the paper "A Family of Nonreconstructible Hypergraphs" by W. L. Kocay. 
+
+The main file contains the first three functions just mentioned. In addition, there are some other files, designed for specific use cases. 
 
 These and related concepts are described in the paper:
 
@@ -38,7 +40,9 @@ Relevant Definitions:
 4- Let H be a simple hypergraph on n vertices, with rank k. Let e_{i_1 ... i_k} be formal variables for each k-set {i_1 ... i_k}. 
 The characteristic polynomial with edge-variables (or the weighted characteristic polynomial) of H is the resultant of I-xA, where A is the adjacency hypermatrix of H with edge-variables: The (i_1 ... i_k) entry is e_{i_1 ... i_k}/(k-1)! where e_{i_1 ... i_k} is a formal variable. Substituting e_{i_1 ... i_k} = 1 for each edge-variable recovers the characteristic polynomial of H.
 
-5- When the hypergraph is large, we can still calculate the first few coefficients of the characteristic polynomial, using the Harary-Sachs Theorem. Hypomorphic hypergraphs are those with the same vertex deck, as described in the paper "A Family of Nonreconstructible Hypergraphs" by W. L. Kocay.
+5- When the hypergraph is large, we can still calculate the first few coefficients of the characteristic polynomial, using the Harary-Sachs Theorem. 
+
+6- Hypomorphic hypergraphs are those with the same vertex deck, as described in the paper "A Family of Nonreconstructible Hypergraphs" by W. L. Kocay.
 
 Examples:
 
@@ -52,7 +56,9 @@ Examples:
 
 5- In Example 5, we calculate the first 9 coefficients of the characteristic polynomials of two hypomorphic but not isomorphic hypergraphs. 
 
-The code is written in Sagemath 9.7, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11. The third program requires Macaulay 2, a software system for algebraic geometry.
+6- In Example 6, we calculate the Lagrange polynomial of the hypomorphic but not isomorphic hypergraphs given in the paper "A Family of Nonreconstructible Hypergraphs" by W. L. Kocay. 
+
+The code is written in Sagemath 10.1, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11. Some of the programs require Macaulay 2, a software system for algebraic geometry.
 
 Download Sagemath: https://www.sagemath.org/
 
