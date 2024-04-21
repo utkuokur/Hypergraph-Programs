@@ -12,6 +12,8 @@ This package contains Sagemath code to calculate:
 
 6 - the lagrange polynomials of the hypergraphs described in the paper "A Family of Nonreconstructible Hypergraphs" by W. L. Kocay. 
 
+7- calculates the hyperdeterminant of a cubical hypermatrix via the algorithm in "Using Algebraic Geometry" by Cox-Little-O’Shea. 
+
 The main file contains the first three functions just mentioned. In addition, there are some other files, designed for specific use cases. 
 
 These and related concepts are described in the paper:
